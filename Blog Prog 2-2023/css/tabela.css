@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#tabela{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+
+#tabela th,td{
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#tabela img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#tabela tr:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.geral {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D5BA98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    height: 670px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#imagem {
+    width: 960px;
+    height: 320px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main h4 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: lighter;
+}
+
+ul {
+    margin-left: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+    margin-left: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    background-color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav{
+    padding-top: 5px;
+}
+
+.tab{
+    display: flex;
+    
+}
